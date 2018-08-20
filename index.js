@@ -7,5 +7,4 @@ function theBeatlesPlay(musicians,instruments){
   for (instrument in instruments){
     console.log(`${instrument}`)
   }
-  
 }
