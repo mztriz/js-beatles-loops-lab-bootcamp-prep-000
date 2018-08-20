@@ -1,10 +1,9 @@
 // add solution here
-function theBeatlesPlay(musicians,instruments){
-  var array = []
-  for (musician in musicians){
-    console.log(`${musician} plays`)
+function theBeatlesPlay(musicians, instruments) {
+  const array = []
+
+  for (let i = 0, l = musicians.length; i < l; i++) {
+    array.push(`${musicians[i]} plays ${instruments[i]}`)
   }
-  for (instrument in instruments){
-    console.log(`${instrument}`)
-  }
+  return arr
 }
